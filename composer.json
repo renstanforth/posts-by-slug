@@ -10,7 +10,7 @@
         "email": "renee.campanilla@gmail.com"
       }
     ],
-    "type": "wordpress-plugin"
+    "type": "wordpress-plugin",
     "minimum-stability": "dev",
     "require": {
       "php": ">=5.3.0"
