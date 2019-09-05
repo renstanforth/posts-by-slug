@@ -1,0 +1,17 @@
+{
+    "name": "reneecampanilla/posts-by-slug",
+    "description": "A WordPress plugin that retrieves post Rest API data by slug.",
+    "keywords": ["wordpress", "plugin", "id to slug"],
+    "homepage": "https://github.com/reneecampanilla/posts-by-slug",
+    "license": "GNU",
+    "authors": [
+      {
+        "name": "Renee Stanforth",
+        "email": "renee.campanilla@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.3.0"
+    }
+  }
