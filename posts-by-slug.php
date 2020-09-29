@@ -27,7 +27,7 @@ function post_single($slug) {
 
     $post = get_posts($args);
 
-    $url = site_url() . "/wp-json/wp/v2/posts/" . $post[0]->ID;
+    $url = home_url() . "/wp-json/wp/v2/posts/" . $post[0]->ID;
 
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
